@@ -25,10 +25,16 @@
             "link": "https://github.com/jgsorio/evernote-clone-frontend"
         },
         {
-            "name": "Pokedex App",
+            "name": "PokeVite",
             "image": "./assets/images/pokedex_app.png",
             "stack": "vuejs-plain, javascript-plain, html5-plain, css3-plain, bootstrap-plain",
             "link": "https://github.com/jgsorio/pokevite"
+        },
+        {
+            "name": "Password Generator",
+            "image": "./assets/images/password_generator.png",
+            "stack": "javascript-plain, html5-plain, css3-plain",
+            "link": "https://jgsorio.github.io/password-generator"
         }
     ]
 }
