@@ -1,0 +1,78 @@
+@import url('./user.css');
+@import url('./socials.css');
+@import url('./about.css');
+@import url('./projects.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #334155;
+    --secondary: #2C2D2E;
+
+    --background-body: #F2F5F9;
+}
+
+body {
+    background-color: var(--background-body);
+    color: var(--primary);
+    font: 400 16px "Inter", sans-serif;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    gap: 48px;
+
+    width: 100%;
+    max-width: 1366px;
+
+    padding: 0 24px;
+    margin: 160px auto 100px;
+}
+
+
+.card {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.1);
+}
+
+.subtitle {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media(max-width: 768px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+
+        margin: 120px 0;
+    }
+
+    .user__content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .user__content h1 {
+        text-align: center;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects__content {
+        margin: 40px auto;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+}

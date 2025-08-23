@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Guilherme Sório</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="app">
+        <section class="card user" data-aos="fade-right">
+            <picture>
+                <img src="assets/images/perfil.jpeg" alt="José Guilherme">
+            </picture>
+            <div class="user__content">
+                <h1>José Guilherme Sório</h1>
+                <p>Desenvolvedor Full Stack</p>
+            </div>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/jos%C3%A9-guilherme-sorio-56375222b/" class="social__link" target="_blank" ><i class="ph ph-linkedin-logo"></i></a>
+                <a href="https://github.com/jgsorio" class="social__link" target="_blank" ><i class="ph ph-github-logo"></i></a>
+            </div>
+        </section>
+        <section class="card about" data-aos="fade-left">
+            <h2 class="subtitle">Sobre</h2>
+            <p>Sou José Guilherme Sorio, tenho 34 anos e sou desenvolvedor com mais de cinco anos de experiência em Full Stack e integrações de sistemas. 
+                Pós-graduado em Desenvolvimento Full Stack pela FIAP, atuo com PHP (Laravel), Node.js, Python, Next.js, React, React Native, VueJS, MySQL, PostgreSQL, MongoDB, RabbitMQ e Docker, 
+                além de práticas modernas como testes automatizados e microsserviços.</p>
+            <p>Apaixonado por teconologias e inovação, estou sempre em busca por aprender, crescer profissionalmente e trabalhar em equipe.</p>
+        </section>
+        <section class="card projects" >
+            <h2 class="subtitle">Projetos</h2>
+            <div class="projects__content" id="projects"></div>
+        </section>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
+</body>
+</html>

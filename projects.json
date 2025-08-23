@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "name": "F2 Sindicos Website",
+            "image": "./assets/images/f2sindicos_website.png",
+            "stack": "php-plain, mysql-original, html5-plain, css3-plain, javascript-plain",
+            "link": "https://f2sindicos.com.br/"
+        },
+        {
+            "name": "F2 Sindicos App",
+            "image": "./assets/images/f2sindicos_app.png",
+            "stack": "ionic-original, angular-plain, sass-original",
+            "link": "https://play.google.com/store/apps/details?id=br.com.ticketsf2sindicos.app&hl=pt_BR&gl=US"
+        },
+        {
+            "name": "Grupo Alpha App",
+            "image": "./assets/images/grupo_alpha_app.png",
+            "stack": "reactnative-original, expo-original, typescript-plain, nodejs-plain",
+            "link": "https://play.google.com/store/apps/details?id=com.artiumsolucoesapp.grupoalpha"
+        },
+        {
+            "name": "Evernote Clone",
+            "image": "./assets/images/evernote_clone.png",
+            "stack": "react-plain, postgresql-plain, javascript-plain, nodejs-plain, mongodb-plain",
+            "link": "https://github.com/jgsorio/evernote-clone-frontend"
+        },
+        {
+            "name": "Pokedex App",
+            "image": "./assets/images/pokedex_app.png",
+            "stack": "vuejs-plain, javascript-plain, html5-plain, css3-plain, bootstrap-plain",
+            "link": "https://github.com/jgsorio/pokevite"
+        }
+    ]
+}

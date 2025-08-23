@@ -1,0 +1,28 @@
+.social {
+    display: flex;
+    column-gap: 8px;
+    margin-top: 24px;
+}
+
+.social__link {
+    width: 46px;
+    height: 46px;
+    background: var(--background-body);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+    color: var(--secondary);
+}
+
+.social__link:hover {
+    background: var(--secondary);
+    transform: translateY(-6px);
+    color: #FFF;
+}
+
+.social__link i {
+    font-size: 22px;    
+}
