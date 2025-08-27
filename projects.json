@@ -35,6 +35,18 @@
             "image": "./assets/images/password_generator.png",
             "stack": "javascript-plain, html5-plain, css3-plain",
             "link": "https://jgsorio.github.io/password-generator"
+        },
+        {
+            "name": "Refri do Dev",
+            "image": "./assets/images/refri_dev.png",
+            "stack": "javascript-plain, html5-plain, css3-plain",
+            "link": "https://refri-do-b2xkihi5m-jgsorios-projects.vercel.app"
+        },
+        {
+            "name": "Cripto APP",
+            "image": "./assets/images/cripto_app.png",
+            "stack": "react-plain, typescript-plain, html5-plain, css3-plain",
+            "link": "https://cripto-59l3fuvbc-jgsorios-projects.vercel.app/"
         }
     ]
 }
