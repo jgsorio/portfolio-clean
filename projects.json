@@ -47,6 +47,12 @@
             "image": "./assets/images/cripto_app.png",
             "stack": "react-plain, typescript-plain, html5-plain, css3-plain",
             "link": "https://cripto-59l3fuvbc-jgsorios-projects.vercel.app/"
+        },
+        {
+            "name": "Smart Coffe",
+            "image": "./assets/images/smart-coffe.png",
+            "stack": "javascript-plain, html5-plain, css3-plain",
+            "link": "https://smart-coffe-website.vercel.app/"
         }
     ]
 }
