@@ -53,6 +53,12 @@
             "image": "./assets/images/smart-coffe.png",
             "stack": "javascript-plain, html5-plain, css3-plain",
             "link": "https://smart-coffe-website.vercel.app/"
+        },
+        {
+            "name": "Task Manager",
+            "image": "./assets/images/task-manager.png",
+            "stack": "react-plain, nodejs-plain, mongodb-plain, sass-original",
+            "link": "https://task-manager-frontend-two-sigma.vercel.app/"
         }
     ]
 }
